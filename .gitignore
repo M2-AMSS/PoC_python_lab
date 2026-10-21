@@ -1,4 +1,10 @@
-### Python ###
+### Project ###
+
+my_stl_module.py
+
+# ==========================================
+# PYTHON
+# ==========================================
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -160,3 +166,54 @@ codegen/
 
 # Octave session info
 octave-workspace
+
+# ==========================================
+# UV (Astral)
+# ==========================================
+# Environnements virtuels créés par uv (par défaut .venv)
+.venv/
+
+# Cache global et local de uv
+.uv_cache/
+
+# ==========================================
+# JUPYTER / JUPYTERLAB
+# ==========================================
+# Checkpoints de Jupyter (fichiers temporaires)
+.ipynb_checkpoints
+
+# Extensions et environnements JupyterLab
+.jupyter/
+
+# ==========================================
+# VISUAL STUDIO CODE (VS CODE)
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Fichiers de travail locaux de VS Code
+*.code-workspace
+.history/
+.gemini/
+
+# ==========================================
+# SYSTÈME D'EXPLOITATION / DIVERS
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+~*
+.directory
